@@ -1,0 +1,1 @@
+const{state:e}=store("procyon",{state:{get themeText(){return e.isDark?e.darkText:e.lightText}},actions:{toggleOpen(){const e=getContext();e.isOpen=!e.isOpen},toggleTheme(){e.isDark=!e.isDark}},callbacks:{logIsOpen:()=>{const{isOpen:e}=getContext();console.log(`Is open: ${e}`)}}});

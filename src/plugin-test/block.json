@@ -1,0 +1,32 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "procyon/plugin-test",
+	"version": "0.1.0",
+	"title": "Plugin Test",
+	"category": "widgets",
+	"icon": "heart",
+	"description": "An example block from my heart to yours.",
+	"example": {},
+	"supports": {
+		"align": true,
+		"color": true,
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true,
+			"textAlign": true
+		},
+		"shadow": true,
+		"spacing": {
+			"margin": true,
+			"padding": true,
+			"blockGap": true
+		}
+	},
+	"textdomain": "plugin-test",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScriptModule": "file:./view.js"
+}
