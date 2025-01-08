@@ -2,7 +2,7 @@ const { state } = store( 'procyon', {
 	state: {
 		get themeText() {
 			return state.isDark ? state.darkText : state.lightText;
-		}
+		},
 	},
 	actions: {
 		toggleOpen() {
@@ -11,7 +11,7 @@ const { state } = store( 'procyon', {
 		},
 		toggleTheme() {
 			state.isDark = ! state.isDark;
-		}
+		},
 	},
 	callbacks: {
 		logIsOpen: () => {
