@@ -1,8 +1,8 @@
 {
 	"name": "plugin-test",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"download_url": "https://github.com/nicolasgalvez/plugin-test/releases/latest/download/plugin-test.zip",
 	"sections": {
-		"description": "A simple thought bubble for your website."
+		"description": "An example block from my heart to yours."
 	}
 }
